@@ -4,20 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    
-    <link rel="shortcut icon" type="image/ico" href="src/assets/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="shortcut icon" type="image/ico" href="assets/favicon.ico" />
     <title>hidjgr's website</title>
-    <script type="module" crossorigin src="/assets/script-1f7c19d2.js"></script>
-    <link rel="stylesheet" href="/assets/script-90f1ed72.css">
   </head>
   <body class="theme-light">
     <noscript>Themes require javascript.</noscript>
-    <!--div id="root"></div-->
-    <header>
+
+        <header>
       <div class="toggle-wrapper">
         <div class="toggle">
           <input class="toggle-input" type="checkbox" />
-          
+          <script type="module" src="/assets/script/script.js"></script>
           <div class="toggle-bg"></div>
           <div class="toggle-switch">
             <div class="toggle-switch-figure"></div>
@@ -29,8 +27,9 @@
       <h1>hidjgr's page</h1>
     </header>
 
+
     <nav>
-      <a><span>home</span></a>
+      <a href="/"><span>home</span></a>
       <a href="blog.html"><span>blog</span></a>
       <a href="contact.html"><span>contact</span></a>
     </nav>
@@ -38,38 +37,73 @@
       <aside>
         <h2>News</h2>
         <div>
-      <section>
+                  <section>
 	<h3>Website launched!</h3>
       	<p>Welcome to my personal website!</p>
       </section>
 
         </div>
       </aside>
-      <main>
-        <h1>Welcome!</h1>
-        <p>This is my portfolio website. Links to my projects will be added soon:</p>
-        <section>
-          <h1>GDELT Globe</h1>
-          <h3>A visualization of GDELT data in globe.gl</h3>
-          <p>Coming soon...</p>
-        </section>
-        <hr>
-        <section>
-          <h1>Poetry translation</h1>
-          <!--h3>section</h3-->
-          <p>Coming soon...</p>
-        </section>
-        <hr>
-        <section>
-          <h1>Coming soon...</h1>
-          <!--h1>Music transcription</h1-->
-          <!--h3>section</h3-->
-          <!--p>Description</p-->
-        </section>
-      </main>
+      <main><h1>Welcome!</h1>
+<p>Welcome to my website! I share my projects and various things I like to talk about here.</p>
+<h2>Projects</h2>
+
+  
+  <a href="gdelt.html" class="project-card">
+  <section>
+    <h1>GDELT Globe</h1>
+    <div>
+    <img src="assets/images/gdelt.png">
+      <div>
+        <h3>A visualization of GDELT data in globe.gl</h3>
+        <p><p>Coming soon…</p>
+</p>
+      </div>
+    </div>
+  </section>
+</a>
+
+
+  
+    <hr>
+  
+  <a href="" class="project-card">
+  <section>
+    <h1>Natural queries</h1>
+    <div>
+    <img src="assets/images/wip.jpg">
+      <div>
+        <h3>Coming soon...</h3>
+        <p><p>Coming soon…</p>
+</p>
+      </div>
+    </div>
+  </section>
+</a>
+
+
+  
+    <hr>
+  
+  <a href="" class="project-card">
+  <section>
+    <h1>Starsector builder</h1>
+    <div>
+    <img src="assets/images/sb-thumb.png">
+      <div>
+        <h3>A tool to optimize your Starsector fleets!</h3>
+        <p><p>Coming soon…</p>
+</p>
+      </div>
+    </div>
+  </section>
+</a>
+
+
+</main>
     </div>
 
-    <footer>© 2023, Hichem Djeghri, All rights reserved.</footer>
+        <footer>© 2023, Hichem Djeghri, All rights reserved.</footer>
 
   </body>
 </html>
